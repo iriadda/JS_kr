@@ -9,18 +9,22 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     background: #5e91bd;
 }
-form{
+
+form {
     background: white;
     border-radius: 5px;
     padding: 40px 40px 30px 30px;
+    margin: 0 auto;
+    width: 500px;
 }
-h1{
+
+h1 {
     margin-bottom: 20px;
 }
-input {
+
+#nameValue {
     margin: 0 20px 20px 0;
     width: 300px;
 }
@@ -50,3 +54,6 @@ button {
     display: flex;
     gap: 20px;
 }
+/*li{*/
+/*    margin-left: 10px;*/
+/*}*/
